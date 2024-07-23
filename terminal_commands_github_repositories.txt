@@ -1,3 +1,18 @@
+
+#--------------------------------------------------------------
+# Commands in the shell for using virtual environment
+#--------------------------------------------------------------
+
+# Change directory
+cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
+
+# Activate virtual environment
+.\env\Scripts\activate
+
+# Using jupyter notebook
+jupyter notebook
+
+
 #--------------------------------------------------------------
 # Commands in the shell for creating virtual environment
 #--------------------------------------------------------------
@@ -23,20 +38,6 @@ pip install pandas numpy scikit-learn jupyter matplotlib seaborn
 
 # freeze dependencies and create requirements.txt file
 pip freeze > requirements.txt
-
-#--------------------------------------------------------------
-# Commands in the shell for using virtual environment
-#--------------------------------------------------------------
-
-# Change directory
-cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
-
-# Activate virtual environment
-.\env\Scripts\activate
-
-# Using jupyter notebook
-jupyter notebook
-
 
 #--------------------------------------------------------------
 # Gitignore file on GitHub Desktop
