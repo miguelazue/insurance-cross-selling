@@ -1,7 +1,16 @@
-# Commands in the sheel for creating virtual environment
+#--------------------------------------------------------------
+# Commands in the shell for creating virtual environment
+#--------------------------------------------------------------
 
 # Change directory
 cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
+
+# Create a .gitignore File
+echo "env/" >> .gitignore
+echo "*.ipynb_checkpoints" >> .gitignore
+echo "data/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+
 
 # Create virtual environment
 python -m venv env
@@ -16,9 +25,22 @@ pip install pandas numpy scikit-learn jupyter matplotlib seaborn
 pip freeze > requirements.txt
 
 
-# Create a .gitignore File
-echo "env/" >> .gitignore
-echo "*.ipynb_checkpoints" >> .gitignore
-echo "data/" >> .gitignore
-echo "__pycache__/" >> .gitignore
+# Removes the env/ folder from Git’s index (staging area) but keeps it on your local filesystem.
+# (Remove a folder that is supposed to be ignore if the folder was created before the gitingore file)
+git rm -r --cached env/
+
+
+
+
+#--------------------------------------------------------------
+# Commands in the shell for using virtual environment
+#--------------------------------------------------------------
+
+# Change directory
+cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
+
+# Activate virtual environment
+.\env\Scripts\activate
+
+
 
