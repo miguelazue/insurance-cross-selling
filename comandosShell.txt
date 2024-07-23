@@ -36,9 +36,15 @@ cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
 
 
 #--------------------------------------------------------------
-# Commands for updating ignoring files that were  created before the gitingore file
+# Gitignore file on GitHub Desktop
 #--------------------------------------------------------------
 
+GITHUB DESKTOP HAS PROBLEMS WITH THE GITIGNORE FILE, TO FIX THIS THROUGH GITHUB DESKTOP GO TO REPOSITORY SETTINGS
+AND IN IGNORED FILES PASTE WHAT SHOULD BE IN THE GITIGNORE
+
+#--------------------------------------------------------------
+# Commands for updating ignoring files that were  created before the gitingore file
+#--------------------------------------------------------------
 
 # Change directory
 cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
@@ -46,16 +52,13 @@ cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
 # Removes the env/ folder from Git’s index (staging area) but keeps it on your local filesystem.
 # (Remove a folder that is supposed to be ignore if the folder was created before the gitingore file)
 git rm -r --cached env/
+git rm -r --cached .ipynb_checkpoints/
+git rm -r --cached data/
 git rm --cached data/train.csv
 git rm --cached data/test.csv
 git commit -m "Remove large files from repository"
 git push
 
-
-
-
-GITHUB DESKTOP HAS PROBLEMS WITH THE GITIGNOR FILE, TO FIX THIS THROUGH GITHUB DESKTOP GO TO REPOSITORY SETTINGS
-AND IN IGNORED FILES PASTE WHAT SHOULD BE IN THE GITIGNORE
 
 
 
