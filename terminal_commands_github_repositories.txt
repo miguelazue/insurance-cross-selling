@@ -34,6 +34,9 @@ cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
 # Activate virtual environment
 .\env\Scripts\activate
 
+# Using jupyter notebook
+jupyter notebook
+
 
 #--------------------------------------------------------------
 # Gitignore file on GitHub Desktop
