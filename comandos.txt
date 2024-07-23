@@ -1,0 +1,24 @@
+# Commands in the sheel for creating virtual environment
+
+# Change directory
+cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
+
+# Create virtual environment
+python -m venv env
+
+# Activate virtual environment
+.\env\Scripts\activate
+
+# install dependencies
+pip install pandas numpy scikit-learn jupyter matplotlib seaborn
+
+# freeze dependencies and create requirements.txt file
+pip freeze > requirements.txt
+
+
+# Create a .gitignore File
+echo "env/" >> .gitignore
+echo "*.ipynb_checkpoints" >> .gitignore
+echo "data/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+
