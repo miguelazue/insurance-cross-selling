@@ -40,7 +40,6 @@ cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
 #--------------------------------------------------------------
 
 
-
 # Change directory
 cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
 
@@ -54,6 +53,9 @@ git push
 
 
 
+
+GITHUB DESKTOP HAS PROBLEMS WITH THE GITIGNOR FILE, TO FIX THIS THROUGH GITHUB DESKTOP GO TO REPOSITORY SETTINGS
+AND IN IGNORED FILES PASTE WHAT SHOULD BE IN THE GITIGNORE
 
 
 
