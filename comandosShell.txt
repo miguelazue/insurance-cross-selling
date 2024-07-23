@@ -49,7 +49,6 @@ cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
 git rm -r --cached env/
 git rm --cached data/train.csv
 git rm --cached data/test.csv
-git rm --cached data/train.csv
 git commit -m "Remove large files from repository"
 git push
 
