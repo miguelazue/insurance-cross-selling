@@ -24,14 +24,6 @@ pip install pandas numpy scikit-learn jupyter matplotlib seaborn
 # freeze dependencies and create requirements.txt file
 pip freeze > requirements.txt
 
-
-# Removes the env/ folder from Git’s index (staging area) but keeps it on your local filesystem.
-# (Remove a folder that is supposed to be ignore if the folder was created before the gitingore file)
-git rm -r --cached env/
-
-
-
-
 #--------------------------------------------------------------
 # Commands in the shell for using virtual environment
 #--------------------------------------------------------------
@@ -41,6 +33,29 @@ cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
 
 # Activate virtual environment
 .\env\Scripts\activate
+
+
+#--------------------------------------------------------------
+# Commands for updating ignoring files that were  created before the gitingore file
+#--------------------------------------------------------------
+
+
+
+# Change directory
+cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
+
+# Removes the env/ folder from Git’s index (staging area) but keeps it on your local filesystem.
+# (Remove a folder that is supposed to be ignore if the folder was created before the gitingore file)
+git rm -r --cached env/
+git rm --cached data/train.csv
+git rm --cached data/test.csv
+git rm --cached data/train.csv
+git commit -m "Remove large files from repository"
+git push
+
+
+
+
 
 
 
