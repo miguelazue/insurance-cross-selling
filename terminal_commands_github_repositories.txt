@@ -12,6 +12,16 @@ cd C:\Users\migue\OneDrive\Documentos\GitHub\insurance-cross-selling
 # Using jupyter notebook
 jupyter notebook
 
+# using visual studio code
+code .
+
+
+# exit the viritual environment
+deactivate
+
+# close the terminal
+exit
+
 
 #--------------------------------------------------------------
 # Commands in the shell for creating virtual environment
