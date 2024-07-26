@@ -6,15 +6,14 @@ from sklearn.metrics import roc_curve, auc
 #----------------------------------
 #-Classification Confusion Matrix--
 #----------------------------------
-
-def my_confusion_matrix(actual, predicted):
+def my_confusion_matrix(actual_df, predicted_l):
     """
     Function that calculates the confusion matrix.
 
     Parameters
     ----------
-    actual : array-like
-        Actual values (can be a pandas Series, list, or numpy array).
+    actual_df : dataframe
+        Actual values in the format of a pandas dataframe.
     predicted : array-like
         Predicted values (can be a pandas Series, list, or numpy array).
 
@@ -24,21 +23,14 @@ def my_confusion_matrix(actual, predicted):
         Returns a tuple containing True Positives (tp), False Positives (fp),
         False Negatives (fn), and True Negatives (tn).
     """
-    # Convert inputs to pandas Series if they are not already
-    if not isinstance(actual, pd.Series):
-        actual = pd.Series(actual)
-    if not isinstance(predicted, pd.Series):
-        predicted = pd.Series(predicted)
-    
-    # Validate input lengths
-    if len(actual) != len(predicted):
-        raise ValueError("Length of actual values and predicted values must be the same")
-    
-    # Calculate confusion matrix components
-    tp = ((actual == 1) & (predicted == 1)).sum()
-    fp = ((actual == 0) & (predicted == 1)).sum()
-    fn = ((actual == 1) & (predicted == 0)).sum()
-    tn = ((actual == 0) & (predicted == 0)).sum()
+    # True Positives
+    tp = sum(actual_df[actual_df == predicted_l] == 1)
+    # False Positive
+    fp = sum(actual_df[actual_df != predicted_l] == 0)
+    # False Negative
+    fn = sum(actual_df[actual_df != predicted_l] == 1)
+    # True Negatives
+    tn = sum(actual_df[actual_df == predicted_l] == 0)
 
     return tp, fp, fn, tn
 
