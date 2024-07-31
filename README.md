@@ -39,7 +39,7 @@ The aim of the competition is to predict whether a customer will buy an insuranc
 
 The evaluation metric for this competition is the area under the ROC curve (AUC). The best model achieved an AUC score of 0.85983
 
-- Neural Network keras from Tensorflow - Score:  0.85983
+- Neural Network using keras from Tensorflow - Score:  0.85983
 - Random Forest using RandomForestRegressor from sklearn - Score: 0.85880
 - Logistic Regression using statsmodels library. - Score: 0.85
 - Decision Tree using DecisionTreeRegressor from sklearn - Score: 0.85243
