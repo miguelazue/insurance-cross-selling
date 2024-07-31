@@ -31,11 +31,12 @@ The aim of the competition is to predict whether a customer will buy an insuranc
 - There is a significant difference between the different region codes and the response proportion. For example for the region code 39 and 44, there is 0% of registers with a positive response. On the other hand the Region codes 38 and 28 have almost 20% of a positive response. There are more than 50 differen region codes, a new variable is created identifying the quartiles by proportion of positive responses.
 - There is a significant difference between the different sales channels and the response proportion. For example for the region code 27 and 67, there are 0% registers with a positive response. On the other hand the Region codes 123 and 43 have respectively 80% and 70% of positive responses. There are more than 150 differen sales channels, a new variable is created identifying the sextiles by proportion of positive responses.
 
-### Prediction Models:
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- Neural Network
+### Prediction Models and Competition results:
 
-## Competition results
-The evaluation metric for this competition is the area under the ROC curve (AUC). Our best model currently achieves an AUC score of 
+The evaluation metric for this competition is the area under the ROC curve (AUC). The best model achieved an AUC score of 0.85983
+
+- Neural Network keras from Tensorflow - Score:  0.85983
+- Random Forest using RandomForestRegressor from sklearn - Score: 0.85880
+- Logistic Regression using statsmodels library. - Score: 0.85243
+- Decision Tree using DecisionTreeRegressor from sklearn - Score: 0.85
+
