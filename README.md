@@ -28,8 +28,8 @@ The aim of the competition is to predict whether a customer will buy an insuranc
 - Registers previously insured have a lower proportion of responses than registers previously not insured (0.1% vs 22.8%)
 - Registers with an older vehicle have a higher proportion of responses.
 - Registers with vehicle damage have a higher proportion of responses than registers with no vehicle damage (24.1% vs 0.4%)
-- There is a significant difference between the different region codes and the response proportion. For example for the region code 39 and 44 the proportion of positive response is 0%. On the other hand the Region codes 38 and 28 have a positive response in around 20% of the registers. There are more than 50 differen region codes, a new variable is created identifying the quartiles by proportion of positive responses.
-- There is a significant difference between the different sales channels and the response proportion. For example for the region code 27 and 67, there are 0% registers with a positive response. On the other hand the Region codes 123 and 43 have respectively 80% and 70% of positive responses. There are more than 150 differen sales channels, a new variable is created identifying the sextiles by proportion of positive responses.
+- There is a significant difference in the response proportion among the different region codes. For example for the region code 39 and 44 the proportion of positive response is 0%. On the other hand the Region codes 38 and 28 have a positive response in around 20% of the registers. There are more than 50 differen region codes, a new variable is created identifying the quartiles by proportion of positive responses.
+- There is a significant difference in the response proportion among the sales channels. For example for the region code 27 and 67, there are 0% registers with a positive response. On the other hand the Region codes 123 and 43 have respectively 80% and 70% of positive responses. There are more than 150 differen sales channels, a new variable is created identifying the sextiles by proportion of positive responses.
 
 ### Prediction Models and Competition results:
 
