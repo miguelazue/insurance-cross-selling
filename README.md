@@ -9,10 +9,6 @@ This repository contains code and notebooks for exploring a dataset and building
  - Installation
  - Usage
  - Results
- - Contributing
- - License
- - Acknowledgements
-
 
 ## Overview
 In this project, we aim to predict whether a customer will buy an insurance product based on various features. The dataset used for this competition is provided by Kaggle. Our approach involves data exploration, feature engineering, and building various machine learning models to achieve the best performance measured by the AUC.
@@ -38,4 +34,5 @@ Open and run the data_exploration.ipynb notebook to explore the dataset and perf
 Open and run the prediction_models.ipynb notebook to build, train, and evaluate different machine learning models.
 Results
 
+## Data exploration and Results
 The evaluation metric for this competition is the area under the ROC curve (AUC). Our best model currently achieves an AUC score of 0.8453907317695759.
