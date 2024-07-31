@@ -1,7 +1,7 @@
 # Binary Classification of Insurance Cross Selling
 Exploration and submission of the competition in the Kaggle Playground Series - Season 4, Episode 7
 
-This repository contains code and notebooks for exploring a dataset and building machine learning models for a binary classification problem related to insurance cross-selling. The project is part of a Kaggle competition where the evaluation metric is the area under the ROC curve (AUC).
+This repository contains the notebooks for exploring the dataset and building machine learning models for a binary classification problem related to insurance cross-selling. The project is part of a Kaggle competition where the evaluation metric is the area under the ROC curve (AUC).
 
 ## Table of Contents
  - Overview
@@ -15,10 +15,10 @@ In this project, we aim to predict whether a customer will buy an insurance prod
 
 ## Repository Structure
 
- - 'utility_functions.py': Contains utility functions used throughout the project.
- - 'data_exploration.ipynb': Jupyter notebook for exploring the dataset and performing initial data analysis.
- - 'prediction_models.ipynb': Jupyter notebook for building, training, and evaluating machine learning models.
- - 'requirements.txt': Txt file with the requirements if the code execution wants to be replicated
+ - `utility_functions.py`: Contains utility functions used throughout the project.
+ - `data_exploration.ipynb`: Jupyter notebook for exploring the dataset and performing initial data analysis.
+ - `prediction_models.ipynb`: Jupyter notebook for building, training, and evaluating machine learning models.
+ - `requirements.txt`: Txt file with the requirements if the code execution wants to be replicated
 
 ### Data Exploration:
 data_exploration.ipynb notebook to explore the dataset and perform initial analysis.
