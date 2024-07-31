@@ -17,22 +17,14 @@ In this project, we aim to predict whether a customer will buy an insurance prod
 'utility_functions.py': Contains utility functions used throughout the project.
 'data_exploration.ipynb': Jupyter notebook for exploring the dataset and performing initial data analysis.
 'prediction_models.ipynb': Jupyter notebook for building, training, and evaluating machine learning models.
-
-## Installation
-To run the code in this repository, you need to have Python and Jupyter Notebook installed. You can install the required dependencies using pip:
-
-bash
-Copy code
-pip install -r requirements.txt
-
-## Usage
+'requirements.txt': Txt file with the requirements if the code execution wants to be replicated
 
 ### Data Exploration:
-Open and run the data_exploration.ipynb notebook to explore the dataset and perform initial analysis.
+data_exploration.ipynb notebook to explore the dataset and perform initial analysis.
 
 ### Prediction Models:
 Open and run the prediction_models.ipynb notebook to build, train, and evaluate different machine learning models.
 Results
 
-## Data exploration and Results
-The evaluation metric for this competition is the area under the ROC curve (AUC). Our best model currently achieves an AUC score of 0.8453907317695759.
+## Competition results
+The evaluation metric for this competition is the area under the ROC curve (AUC). Our best model currently achieves an AUC score of 
