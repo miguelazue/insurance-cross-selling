@@ -1,6 +1,6 @@
 # Binary Classification of Insurance Cross Selling
 
-This repository contains the notebooks for exploring the dataset and the notebooks for building machine learning models for the binary classification problem related to insurance cross-selling. The models are used for the Kaggle competition "Playground Series - Season 4, Episode 7".
+This repository contains the notebook for exploring the dataset and the notebook for building machine learning models for the binary classification problem related to insurance cross-selling. The models are used for the Kaggle competition "Playground Series - Season 4, Episode 7".
 
 ## Table of Contents
  - Overview
