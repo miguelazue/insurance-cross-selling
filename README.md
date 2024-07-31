@@ -2,6 +2,10 @@
 
 This repository contains the notebook for exploring the dataset and the notebook for building machine learning models for the binary classification problem related to insurance cross-selling. The models are used for the Kaggle competition "Playground Series - Season 4, Episode 7".
 
+Cross-selling refers to the practice of selling additional products to existing customers. Although the dataset and variables are not clearly described, it can be interpreted that each row represents an attempt to sell an additional insurance product to a customer, with the response variable indicating whether the customer responded positively.
+
+The primary goal of this project is to predict the probability of a positive response using the given variables. These models are useful for identifying customers who are likely to respond positively to cross-selling efforts, allowing companies to run more efficient marketing campaigns by targeting customers with a higher probability of a positive response.
+
 ## Table of Contents
  - Overview
  - Repository Structure
