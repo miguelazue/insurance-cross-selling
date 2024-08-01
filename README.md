@@ -45,3 +45,9 @@ The evaluation metric for this competition is the area under the ROC curve (AUC)
 - Logistic Regression using statsmodels library. - AUC Score: 0.84961
 - Decision Tree using DecisionTreeRegressor from sklearn - AUC Score: 0.85243
 
+### Interpretation
+
+The AUC Score for the Neural Network version 1 is 0.86017. This means that  with this model, the probability is 86% that the individual with a positive response will have a higher score than the one with a negative response.
+
+The ROC Curve compares the TPR (True Positive Rate) and the FPR (False Positve Rate) at different score cutoffs. The intention of a classification model is to have a high TPR and a low FPR.
+
