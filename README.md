@@ -39,15 +39,15 @@ The aim of the competition is to predict whether a customer will buy an insuranc
 
 The evaluation metric for this competition is the area under the ROC curve (AUC). The best model achieved an AUC score of 0.86017
 
-- Neural Network version 1 using keras from Tensorflow - AUC Score:  0.86017
-- Neural Network version 2 using keras from Tensorflow - AUC Score:  0.85983
-- Random Forest using RandomForestRegressor from sklearn - AUC Score: 0.85880
-- Logistic Regression using statsmodels library. - AUC Score: 0.84961
-- Decision Tree using DecisionTreeRegressor from sklearn - AUC Score: 0.85243
+- **Neural Network version 1 using keras from Tensorflow** - AUC Score:  0.86017
+- **Neural Network version 2 using keras from Tensorflow** - AUC Score:  0.85983
+- **Random Forest using RandomForestRegressor from sklearn** - AUC Score: 0.85880
+- **Logistic Regression using statsmodels** - AUC Score: 0.84961
+- **Decision Tree using DecisionTreeRegressor from sklearn** - AUC Score: 0.85243
 
 ### Interpretation
 
-The AUC Score for the Neural Network version 1 is 0.86017. This means that  with this model, the probability is 86% that the individual with a positive response will have a higher score than the one with a negative response.
+The AUC score for **Neural Network Version 1** is 0.86017. This means that with this model, there is an 86% probability that an individual with a positive response will have a higher predicted score than an individual with a negative response.
 
-The ROC Curve compares the TPR (True Positive Rate) and the FPR (False Positve Rate) at different score cutoffs. The intention of a classification model is to have a high TPR and a low FPR.
+The ROC curve compares the True Positive Rate (TPR) and the False Positive Rate (FPR) at different score cutoffs. The goal of a classification model is to achieve a high TPR and a low FPR.
 
