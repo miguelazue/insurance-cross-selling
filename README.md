@@ -47,7 +47,7 @@ The evaluation metric for this competition is the area under the ROC curve (AUC)
 
 ### Interpretation
 
-The AUC score for **Neural Network Version 1** is 0.86017. This means that with this model, there is an 86% probability that an individual with a positive response will have a higher predicted score than an individual with a negative response.
+The AUC score for **Neural Network Version 1** is 0.86017. This means that with this model, there is a 86% probability that an individual with a positive response will have a higher predicted score than an individual with a negative response.
 
 The ROC curve compares the True Positive Rate (TPR) and the False Positive Rate (FPR) at different score cutoffs. The goal of a classification model is to achieve a high TPR and a low FPR.
 
